@@ -76,3 +76,20 @@ In a lot of ways, that’s exactly what web developers do, except instead of arr
 
 ---
 ![bg fit](./assets/web-publishing.png)
+
+---
+# ***5. Fundamentals, not frameworks***
+We are going to learn the fundamentals of how thins work from scratch and therefore we are not going to use any css framework not javascript work. As the fundamentals will you as a student to use those tools in the future and work faster.
+
+---
+# ***6. Tools***
+- A computer
+- [VSCode](https://code.visualstudio.com/) as our text editor
+- A web browser, preferably [chrome](https://www.google.com/chrome/) or [firefox](https://www.mozilla.org/en-US/firefox/new/)
+
+---
+## Setup VSCode
+1. Download [VSCode](https://code.visualstudio.com/) 
+2. Install [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+# ***
