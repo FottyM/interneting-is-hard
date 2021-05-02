@@ -1,123 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fancy site</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fancy site</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
-            font-size: 16px;
-        }
-
-        .wrapper {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-
-        .header {
-            max-height: 200px;
-            background-color: #28774A;
-            color: whitesmoke;
-            display: flex;
-            filter: drop-shadow(1px 1px 5px #11311f);
-        }
-
-        .header>* {
-            margin: 10px;
-        }
-
-        .header .details {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .header .details>p {
-            padding: 5px 0;
-            font-size: 1.75rem;
-            color: #f0946f;
-            text-shadow: 1px 1px 1px black;
-            /* text-decoration: underline; */
-        }
-
-        .header .profile-pic {
-            max-height: 160px;
-            border-radius: 600px;
-        }
-
-        .body {
-            padding: 16px 8px 0 8px;
-            background-color: #FFF4D5;
-            height: 100%;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            font-family: 'savoye let', serif;
-        }
-
-        p {
-            font-size: 1.75rem;
-            font-family: 'savoye let', serif;
-        }
-
-        h1.fonty {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        p.fonty {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        button.btn {
-            padding: 1rem;
-            height: 3rem;
-            border-radius: 8px;
-            border: none;
-            background-color: #11311f;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="wrapper">
-        <section class="header">
-            <img src="../assets/mutunda.png" alt="mutunda" class="profile-pic">
-            <section class="details">
-                <p>Name: Fortunat Mutunda</p>
-                <p>Alias: Batman</p>
-                <p>Profession: Christian &andand; Software Craftsman</p>
+    <body>
+        <div class="wrapper">
+            <section class="header">
+                <!-- <img src="../assets/mutunda.png" alt="mutunda" class="profile-pic"> -->
+                <section class="details">
+                    <p>Name: Fortunat Mutunda</p>
+                    <p>Alias: Batman</p>
+                    <p>Profession: Christian &andand; Software Craftsman</p>
+                </section>
             </section>
-        </section>
-        <section class="body">
-            <h1>About me</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima illum, distinctio, non quasi labore
-                libero,
-                nam fuga molestiae voluptatum velit nisi ad? Doloremque similique sed soluta. Ipsum saepe quae ea!
-            </p>
-            <button class="btn">
-                Change Font
-            </button>
-        </section>
-    </div>
-    <script>
-        // let clickCount = 0;
-        // const title = document.querySelector('.title')
-        // title.addEventListener('click', (e) => {
-        //     clickCount += 1;
-        //     title.textContent = 'Last change to back off'
-        //     if (clickCount >= 2) {
-        //         title.remove()
-        //     }
-        // })
-    </script>
-</body>
-
+            <section class="body">
+                <h1>About me</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima illum, distinctio, non quasi labore
+                    libero,
+                    nam fuga molestiae voluptatum velit nisi ad? Doloremque similique sed soluta. Ipsum saepe quae ea!
+                </p>
+                <button class="btn">
+                    Change Font
+                </button>
+            </section>
+        </div>
+    </body>
 </html>
