@@ -1,2 +1,3 @@
-# interneting-is-hard
-HTML CSS and JS courses from interneting is hard.
+# Interneting is hard
+
+This title and some of the content are inspired from [Internting is hard](https://www.internetingishard.com/), which is very wonderful website that contains a series of tutorials that teaches foundamentals of web development. Each chapter is included in its own branch with with all the presentations, notes, assets and demos... 
