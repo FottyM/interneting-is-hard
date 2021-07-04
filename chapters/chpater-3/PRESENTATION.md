@@ -74,3 +74,35 @@ ___
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 
 ---
+# ***Images***
+Images use the self-closing HTML tag img
+`<img src='my-image.png'/>`
+- src(source) attribute would specify the path of the image.
+---
+# ***Image Formats***
+- JPG
+- PNG
+- GIF
+- SVG
+---
+# ***Image Formats: JPG(JPEG)***
+
+JPG images are designed for handling large color palettes without exorbitantly increasing file size.
+i.e., photos, landscapes etc...
+
+---
+# ***Image Formats: GIF***
+
+GIFs are the go-to option for simple animations, but the trade off is that they’re somewhat limited in terms of color palette—never use them for photos.
+
+---
+# ***Image Formats: PNG***
+
+PNGs are great for anything that’s not a photo or animated. For photos, a PNG file of the same quality (as perceived the human eye) would generally be bigger than an equivalent JPG file.
+
+---
+# ***Image Formats: SVG***
+
+Unlike the pixel-based image formats above, SVG is a vector-based graphics format, meaning it can scale up or down to any dimension without loss of quality. This property makes SVG images a wonderful tool for responsive design. They’re good for pretty much all the same use cases as PNGs, and you should use them whenever you can.
+
+---
