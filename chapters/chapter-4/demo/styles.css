@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-weight: 100;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+.indent-text {
+  text-indent: 2em;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlight-yellow {
+  background-color: yellow;
+  opacity: 0.75;
+}
+
+.highlight-green {
+  background-color: green;
+  opacity: 0.75;
+}
+
+.highlight-purple {
+  background-color: purple;
+  opacity: 0.75;
+}
+
+.highlight-red {
+  background-color: red;
+  opacity: 0.75;
+}
+
+.italic {
+  font-style: italic;
+}
